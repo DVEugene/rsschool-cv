@@ -1,19 +1,19 @@
-.container{
+.container {
     width:1300px;
     margin:auto;
 }
 
-.logoSize{
+.logoSize {
     width:200px;
     height:110px;
 }
 
-.avaSize{
+.avaSize {
     width:250px;
     height:150px;
 }
 
-.block-left{
+.block-left {
     width:25%;
     height:650px;
     overflow:auto;
@@ -22,13 +22,13 @@
     color: #FFFFFF;
 }
 
-.block-right{
+.block-right {
     width:60%;
     height:650px;
     overflow:auto;
     background-color: #C0C0C0;
 }
 
-.textPadding{
+.textPadding {
     padding-left: 20px;
 }
