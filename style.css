@@ -1,34 +1,38 @@
-.container{
+.container {
     width:1300px;
     margin:auto;
 }
 
-.logoSize{
+.logoSize {
     width:200px;
     height:110px;
 }
 
-.avaSize{
+.avaSize {
     width:250px;
     height:150px;
 }
 
-.block-left{
+.personalInfo {
     width:25%;
-    height:650px;
+    height:850px;
     overflow:auto;
     float:left;
     background-color: #808080;
     color: #FFFFFF;
 }
 
-.block-right{
+.commonInformation {
     width:60%;
-    height:650px;
+    height:850px;
     overflow:auto;
     background-color: #C0C0C0;
 }
 
-.textPadding{
+.textPadding {
     padding-left: 20px;
+}
+
+.headStyle {
+    margin: auto;
 }

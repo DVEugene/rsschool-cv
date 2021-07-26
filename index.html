@@ -8,10 +8,12 @@
     <title>MyCV</title>
 </head>
 <body>
+
     <main class= "container">
-
-
-        <div class= "block-left">
+        <header class= "headStyle">
+            Eugene Platnitski's CV
+        </header>
+        <section class= "personalInfo">
                 <img class="avaSize" src="./pictures/kot.jpg" alt="Avatar">
             <h1 class="textPadding">Eugene Platnitski</h1>
                 <p class="textPadding">32 years old</p>
@@ -21,9 +23,9 @@
                     <li>Email: Plotnitskyea@gmail.com</li>
                     <li>Discord: Yauheni Platnitski (@DVEugene)</li>
                 </ul>
-        </div>
+        </section>
 
-        <div class= "block-right">
+        <section class= "commonInformation">
             <h2 class="textPadding">About Me:</h2>
                 <p class="textPadding">My goal is to broaden my horizons.</p>
                 <p class="textPadding">My strengths:</p>
@@ -49,17 +51,31 @@
                     <li>2020 - present time: large IT company - BA;</li>
                 </ol>
 
+            <h2 class="textPadding">HTML markup example:</h2>
+            <pre>
+                <code>
+    &lt;section class= "commonInformation"&gt;
+    &lt;h2 class="textPadding"&gt;About Me:&lt;/h2&gt;
+        &lt;p class="textPadding"&gt;My goal is to broaden my horizons.&lt;/p&gt;
+        &lt;p class="textPadding"&gt;My strengths:&lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Curiosity&lt;/li&gt;
+                &lt;li>Fast learning&lt;/li&gt;
+            &lt;/ul&gt;
+                </code>
+        </pre>
+
             <h2 class="textPadding">English level:</h2>
                 <p class="textPadding">At the moment my level is Pre-Intermediate</p>
-        </div>
+        </section>
         <footer>
             <p><a href="https://github.com/DVEugene">Мой Git</a></p>
             <p><time datetime="2021">2021</time></p>
-            <p><a href= "https://rs.school/js/">
+            <a href= "https://rs.school/js/">
                 <div class="logoSize">
                     <img src="https://rs.school/images/rs_school_js.svg" alt="RsSchoolLogo">
                 </div>
-            </a></p>
+            </a>
         </footer>
     </main>
     <script src="/script.js"></script>
